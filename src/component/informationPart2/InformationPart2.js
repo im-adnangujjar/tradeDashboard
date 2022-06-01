@@ -15,7 +15,7 @@ function InformationPart2({ data2 }) {
                 <p style={styles.rank} className="w-20" >{data2.rank1}</p>
                 <p style={styles.time} className="w-20">{data2.time}</p>
             </div>
-            <div className='ml-28' style={styles.flex1}>
+            <div className='ml-28 mr-10' style={styles.flex1}>
                 <img src={group} alt="image not found" />
                 <img className="ml-6 mr-48" src={Union} alt="image not found" />
                 <img src={eth} alt="image not found" />

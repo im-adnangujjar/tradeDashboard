@@ -45,7 +45,7 @@ function FirstSection() {
                 })}
             </div>
           </div>
-          <div  className='mr-10 mb-5' style={styles.flex1}>
+          <div className='mr-10 mb-5' style={styles.flex1}>
             <div className='w-2/4'>
               <div style={styles.flex}>
                 <div>
@@ -71,16 +71,15 @@ function FirstSection() {
                     </div>
                   </div>
                   <div style={styles.scroll}>
-                    {
-                      data2.map((item, index) => {
-                        return <div key={index}><Informationpart2 data2={item} /></div>
-                      })}
+                      {
+                        data2.map((item, index) => {
+                          return <div key={index}><Informationpart2 data2={item} /></div>
+                        })}
                   </div>
                 </div>
               </div>
             </div>
             <div>
-              {/* <div></div> */}
               <Graph2 />
               <Graph />
             </div>

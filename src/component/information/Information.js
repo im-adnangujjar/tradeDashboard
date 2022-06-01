@@ -2,7 +2,6 @@ import React from 'react'
 import { styles } from './InformationStyle'
 import icons from "../../assets/icons/icon11.png"
 import eth from '../../assets/icons/eth.png'
-import { data } from '../../constants/Constant'
 
 
 
@@ -17,7 +16,7 @@ function Information({ data1 }) {
                 <p style={styles.rank} className="w-20">{data1.rank1}</p>
                 <p style={styles.time} className="w-20">{data1.time}</p>
             </div>
-            <div className='ml-28' style={styles.flex1}>
+            <div className='ml-28 mr-10' style={styles.flex1}>
                 <img className='mr-6' src={icons} alt="image not found" />
                 <p className='w-16 text-white'>{data1.pixel}</p>
                 <img className='w-2' src={data1.img} alt="image not found" />
