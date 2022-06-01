@@ -45,7 +45,7 @@ function FirstSection() {
                 })}
             </div>
           </div>
-          <div className='mb-5 mr-5' style={styles.flex1}>
+          <div className='mb-5 mr-6' style={styles.flex1}>
             <div style={{width:'35%'}}>
               <div style={styles.flex}>
                 <div>
@@ -62,7 +62,6 @@ function FirstSection() {
                       data1.map((item, index) => {
                         return <Information data1={item} />
                       })}
-                      {/* <div></div> */}
                   </div>
                   <div style={styles.flex1} className='mt-8  mb-3'>
                     <h3 className='text-white text-xl pl-4'> Trades <span>(2500)</span></h3>
