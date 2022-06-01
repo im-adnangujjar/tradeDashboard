@@ -23,7 +23,7 @@ const styles = {
         overflowX:'hidden'
     },
     scrollbar:{
-        width: '1500px',
+        width: '95%',
         height: 'auto',
         overflow: 'scroll',
         overflowY:'hidden',

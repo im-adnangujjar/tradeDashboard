@@ -29,7 +29,7 @@ const commonProps = {
 export default function graphjs() {
   return (
     <div >
-      <div className='mt-10' style={{ display: 'flex', justifyContent: 'space-between', width: '650px', alignItems: 'center', }}>
+      <div className='mt-10' style={{ display: 'flex', justifyContent: 'space-between', width: '600px', alignItems: 'center', }}>
         <h2 className='text-white  text-xl'>Live Listings </h2>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <DropButton title="Grop Size 0.01" />
@@ -38,7 +38,7 @@ export default function graphjs() {
         </div>
       </div>
       <div style={{ height: 200 }}>
-        <ResponsiveBar width='650' height='180' {...commonProps} />
+        <ResponsiveBar width='600' height='180' {...commonProps} />
       </div>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: 'white', width: '80%', }}>
         <p>Holders with</p>
