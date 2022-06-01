@@ -35,7 +35,7 @@ function FirstSection() {
   border-radius: 10px;
 }
     `}</style>
-        <div style={{ width: '95%'}}>
+        <div style={{ width: '95%' ,marginLeft:'20px'}}>
           <TopBar />
           <div style={styles.scrollbar}>
             <div style={styles.flex}>
@@ -45,8 +45,8 @@ function FirstSection() {
                 })}
             </div>
           </div>
-          <div className='mb-5 w-full' style={styles.flex1}>
-            <div style={{width:'40%'}}>
+          <div className='mb-5 mr-5' style={styles.flex1}>
+            <div style={{width:'35%'}}>
               <div style={styles.flex}>
                 <div>
                   <div style={styles.flex1} className='mt-8  mb-3'>
