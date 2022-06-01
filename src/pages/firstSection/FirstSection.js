@@ -46,7 +46,7 @@ function FirstSection() {
             </div>
           </div>
           <div className='mr-10 mb-5' style={styles.flex1}>
-            <div className='w-2/4'>
+            <div style={{width:'50%'}}>
               <div style={styles.flex}>
                 <div>
                   <div style={styles.flex1} className='mt-8  mb-3'>
@@ -79,7 +79,7 @@ function FirstSection() {
                 </div>
               </div>
             </div>
-            <div>
+            <div style={{width:'45%'}}>
               <Graph2 />
               <Graph />
             </div>
