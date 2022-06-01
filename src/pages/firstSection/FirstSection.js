@@ -79,7 +79,7 @@ function FirstSection() {
                 </div>
               </div>
             </div>
-            <div style={{width:'45%'}}>
+            <div style={{width:'40%'}}>
               <Graph2 />
               <Graph />
             </div>

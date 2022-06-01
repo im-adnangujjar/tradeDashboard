@@ -13,7 +13,7 @@ import icon5 from '../../assets/icons/Vector5.png'
 function SideBar() {
     return (
      
-            <div style={styles.center} className='bg-[#202226] w-20 h-full'>
+            <div style={styles.center} className='bg-[#202226]  h-full'>
                 <img className='mb-20 mt-9' src={icon} alt="icon" />
                 <hr className='decoration-white'/>
                 <img className='w-4 h-4 mb-9' src={icon1} alt="icon" />
